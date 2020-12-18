@@ -5,14 +5,10 @@ package newReport5;
 
 public class App {
     public static void main(String[] args) {
-        String str = null;
-        try {
-            System.out.println(str.length());
+        String str = "百二十三";
 
-        } catch (NullPointerException e) {
-            System.out.println("NullPointerException発生");
-            System.out.println(e.getMessage());
-        }
+        
+        int value = Integer.parseInt(str);
 
     }
 }
